@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML and CSS project 3</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<h1><center>HTML and CSS Project 3</center></h1>
+
+	<!-- 1. Class work 
+		 2. List of Semantic and non Semantic Markup
+		 3. List of boolean attribute -->
+
+
+	<h3>1. abbr</h3>
+	<abbr title="Daffodil Internation University">DIU</abbr> 
+
+	<br><hr class="hr">
+
+	<h3>2. b and strong tag</h3>
+	<b>Tanjil Rahman</b> <br>
+	<strong>Tanjil Rahman</strong>
+	<br><hr class="hr">
+
+	<h3>3. i and em tag</h3>
+	<i>Tanjil Rahman</i> <br>
+	<em>Tanjil Rahman</em> 
+	<br><hr class="hr">
+
+	<h3>4. Without custom height</h3>
+	<img class="image_ok" src="img/tanjil.jpg" alt="Tanjil Rahman"> <br>
+	<br><hr class="hr">
+
+	<h3>5. With custom height the picture is not working good. </h3>
+	<img class="image_wrong" src="img/tanjil.jpg" alt="Tanjil Rahman">
+	<br><hr class="hr">
+
+	<h3>6. Video</h3>
+	<video class="myvideo" controls>
+		<source src="video/myvideo.mp4" type="video/mp4">
+			<br><hr class="hr">
+	</video>
+
+	<h3>7. audio</h3>
+	<audio controls>
+		<source src="audio/audio1.mp3" type="audio/mp3">
+			<br><hr class="hr">
+	</audio>
+	<br> <hr class="hr">
+
+	<h3>8. iframe - embed google map</h3>
+	<iframe class="mymap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.328416108228!2d89.99776231446414!3d22.151567453876158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0075f89d1ad539%3A0xc0c80ad0b6f97c51!2sFakirbari%20Rd!5e0!3m2!1sen!2sbd!4v1624117669106!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+	<br><hr class="hr">
+
+	<h3>9. iframe - embed youtube video</h3>
+	<iframe class="myyoutube" src="https://www.youtube.com/embed/48FPyoE6UPw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br><hr class="hr">
+
+
+	<h3>Semantic Elements</h3>
+	
+	<ol>
+		<li>article</li>  
+		<li>aside</li>  
+		<li>details</li>   
+		<li>figcaption</li> 
+		<li>figure</li>  
+		<li>footer</li>    
+		<li>header</li>     
+		<li>main</li>  
+		<li>mark</li>  
+		<li>nav</li>  
+		<li>section</li>     
+		<li>summary</li>  
+		<li>time</li>
+	</ol>			
+									   
+		<hr>
+	<h2 class="red">Semantic Elements Starts</h2>
+	<h3>10. article</h3>
+	<article>
+		<h5>Tanjil Rahmna</h5>
+		<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Autem vel magni nihil minus, perspiciatis rem ipsum repellat, error rerum, sit architecto dicta tempore! Molestiae deleniti recusandae dolore nemo explicabo nostrum eos! Iste repellat neque nesciunt cumque, rerum mollitia labore laborum sequi eligendi voluptas dignissimos molestiae veritatis odit accusantium molestias eveniet.</p>
+	</article>
+	<br><hr class="hr">
+
+	<h3>11. aside</h3>
+	<aside>
+		<h5>Lorem, ipsum, dolor.</h5>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing, elit. Illo placeat, ex fuga mollitia saepe aut aspernatur quos quo culpa, natus eveniet, totam id recusandae autem. Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Ducimus, in. Sunt exercitationem neque voluptate nam beatae necessitatibus dolores aspernatur. Quisquam, atque delectus molestias excepturi dolore!
+		</p>
+	</aside>
+	<br><hr class="hr">
+
+	<h3>12. details, summary</h3>
+	<summary>Click</summary>
+	<details>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio <br> in minima quod odio iusto tempora doloremque a omnis ducimus <br> architecto. Culpa ipsam recusandae, aut ut <br> voluptatum iste quis temporibus reprehenderit.
+	</details>
+	<br><hr class="hr">
+
+	<h3>13. figure, figcaption</h3>
+	<div>
+		<figure>
+			<img src="img/tanjil.jpg" alt="Tanjil Rahman">
+			<figcaption>Fig 01-mypic</figcaption>
+		</figure>
+	</div>
+	<br><hr class="hr">
+
+	<h3>14. footer</h3>
+	<footer>
+		<p>Tanjil Rahman</p>
+		<a href="https://www.facebook.com/tanjilrahman.me">Facebook</a>
+	</footer>
+	<br><hr class="hr">
+
+	<h3>15. header</h3>
+	<header>
+		<p>HTML 2nd Class</p>
+	</header>
+	<br><hr class="hr">
+
+	<h3>16. main, section, nav </h3>
+	<main class="main">
+		<div>
+			<section>
+				<nav>
+					<a href="#">Home</a> |
+					<a href="#">About</a> |
+					<a href="#">Portfolioo</a> |
+					<a href="#">Contact</a> 
+				</nav>
+			</section>
+		</div>
+	</main>
+	<br><hr class="hr">
+
+	<h3>17. form</h3>
+	<form action="">
+		<label>Your Name: </label>
+		<input type="text" name="" id="">
+	</form>
+	<br><hr class="hr">
+
+	<h2>Boolean Attribute</h2>
+	<p>Some boolean attributes</p>
+	 		<ol>
+	 			<li>checked</li>
+				<li>disabled</li>
+				<li>controls</li>
+				<li>hidden</li>
+				<li>selected</li>
+				<li>reversed</li>
+				<li>required</li>
+				<li>readonly</li>
+				<li>openlidate</li>
+				<li>nova</li>
+				<li>muted</li>
+				<li>multiple</li>
+				<li>loop</li>
+				<li>autoplay</li>
+	 		</ol>
+	 		<br><hr class="hr">
+
+ 	<h3>18. checked, disabled</h3>
+ 	<label>Click </label> <br>
+ 	<input type="checkbox" name="Ronaldo" checked disabled=""> Ronaldo
+ 	<br><hr class="hr">
+
+ 	<h3>19. controls</h3>
+	<audio controls>
+		<source src="audio/audio1.mp3" type="audio/mp3">
+	</audio>
+	<br><hr class="hr">
+
+	<h3>20. hidden</h3>
+	<p hidden>Lorem ipsum dolor sit amet.</p> 
+	<br><hr class="hr">
+
+	<h3>21. selected</h3>
+	<select>
+		<option value="CSE">EEE</option>
+		<option value="CSE">SE</option>
+		<option selected value="CSE">CSE</option>
+		<option value="CSE">Pharmacy</option>
+	</select>
+	<br><hr class="hr">
+
+	<h3>22. reversed</h3>
+	<p>see </p>
+	<ol reversed>
+		<li>Ronaldo</li>
+		<li>Neymar jr.</li>
+		<li>Messi</li>
+	</ol>
+	<br><hr class="hr">
+
+	<h3>23. required</h3>
+	<form action="">
+	  	Username: <input type="text" name="usrname" required>
+	  	<input type="submit">
+	</form>
+	<br><hr class="hr">
+
+	<h3>24. readonly</h3>
+	<form action="">
+	  	Username: <input type="text" value="Tanjil Rahman" name="usrname" readonly>
+	</form>
+	<br><hr class="hr">
+
+	<h3>25. open</h3>
+	<details open>
+		<summary>Click to show</summary>
+		Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Quae molestiae impedit accusamus voluptate nisi vitae veniam blanditiis adipisci ullam at, pariatur voluptatibus quam veritatis cupiditate, eligendi sint, iste quisquam expedita. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</details>
+	<br><hr class="hr">
+
+	<h3>26. novalidate</h3>
+	<form action="" novalidate>
+	  E-mail: <input type="email" name="user_email">
+	  <input type="submit">
+	</form>
+	<br><hr class="hr">
+
+	<h3>27. muted</h3>
+	<video class="myvideo" controls muted>
+		<source src="video/myvideo.mp4" type="video/mp4">
+	</video>
+	<br><hr class="hr">
+
+	<h3>28. multiple</h3>
+	<p>Using multiple attribute we can select or browse one or more files at a time</p>
+	<form action="">
+	  <label for="files">Upload files:</label>
+	  <input type="file" id="files" name="files" multiple><br><br>
+	  <button class="red">Upload</button>
+	</form>
+	<br><hr class="hr">
+
+	<h3>29. loop</h3>
+	<p>Using loop attribute a audio is playing again and again after finished</p>
+	<audio controls loop>
+		<source src="audio/audio1.mp3" type="audio/mp3">
+	</audio>
+	<br><hr class="hr">
+
+	<h3>30. autoplay</h3>
+	<p>Using autoplay attribute the song or video will play automatically after refreshing the browser</p>
+	<audio controls autoplay>
+		<source src="audio/audio1.mp3" type="audio/mp3">
+	</audio>
+	<br><hr class="hr">
+
+	<h3>code </h3>
+	<p>html <code>p</code> means paragraph</p>
+
+	<h3> col and colgroup</h3>
+	<p>col tag use for the column properties</p>
+	<table border>
+	  <colgroup>
+	   <!--  <col span="2" style="background-color:greenyellow;"> -->
+	    <col style="background-color:skyblue;">
+	    <col style="background-color:greenyellow;">
+	    <col style="background-color:dimgrey;">
+	  </colgroup>
+	  <tr>
+	    <th>ISBN</th>
+	    <th>Title</th>
+	    <th>Price</th>
+	  </tr>
+	  <tr>
+	    <td>3476896</td>
+	    <td>My first HTML</td>
+	    <td>$53</td>
+	  </tr>
+	  <tr>
+	    <td>5869207</td>
+	    <td>My first CSS</td>
+	    <td>$49</td>
+	  </tr>
+	</table>
+
+	<h3>dfn use for defination</h3>
+	<p><dfn>HTML</dfn> is the structure of a website and <dfn>CSS</dfn> is the designing system</p>
+
+	<h3>embed</h3>
+	<embed src="img/tanjil.jpg" type="image/jpg">
+
+
+</body>	
+</html>

@@ -1,0 +1,54 @@
+.image_ok{
+	width: 400px;
+}
+
+.image_wrong{
+	width: 400px;
+	height: 200px;
+}
+
+.myvideo{
+	width: 50%;
+	height: 400px;
+}
+
+.mymap{
+	width: 100%;
+	height: 400px;
+}
+
+.myyoutube{
+	width: 50%;
+	height: 400px;
+}
+
+.main a{
+	text-decoration: none;
+	font-size: 16px;
+	background-color: greenyellow;
+	color: black;
+}
+
+.red{
+	color: red;
+}
+
+body{
+	background-color: lightcyan;
+}
+
+.hr {
+    width: 30%;
+    float: left;
+    height: 0px;
+    color: red;
+    border: 2px solid;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+h3{
+	color: blue;
+	font-family: arial;
+}
